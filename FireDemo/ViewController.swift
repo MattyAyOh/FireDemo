@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .black
+        
+        let homeTeamBadgeView = TeamBadgeView.fromNib()
+        homeTeamBadgeView.configure()
+        
+        self.view.addSubview(homeTeamBadgeView)
+        homeTeamBadgeView.frame.origin = CGPoint(x: 300, y: 500)
     }
 
 

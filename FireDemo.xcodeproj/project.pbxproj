@@ -13,6 +13,10 @@
 		6BD6A31723A2DB210041228E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6A31523A2DB210041228E /* Main.storyboard */; };
 		6BD6A31923A2DB240041228E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6A31823A2DB240041228E /* Assets.xcassets */; };
 		6BD6A31C23A2DB240041228E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6A31A23A2DB240041228E /* LaunchScreen.storyboard */; };
+		6BD6A32423A2DB330041228E /* TeamBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6A32323A2DB330041228E /* TeamBadgeView.swift */; };
+		6BD6A32623A2DB650041228E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6A32523A2DB650041228E /* UIView+.swift */; };
+		6BD6A32823A2DBA70041228E /* NSAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6A32723A2DBA70041228E /* NSAttributedString+.swift */; };
+		6BD6A32A23A2DBFF0041228E /* TeamBadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6A32923A2DBFF0041228E /* TeamBadgeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6BD6A31823A2DB240041228E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD6A31B23A2DB240041228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BD6A31D23A2DB240041228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD6A32323A2DB330041228E /* TeamBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBadgeView.swift; sourceTree = "<group>"; };
+		6BD6A32523A2DB650041228E /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		6BD6A32723A2DBA70041228E /* NSAttributedString+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+.swift"; sourceTree = "<group>"; };
+		6BD6A32923A2DBFF0041228E /* TeamBadgeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamBadgeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				6BD6A31823A2DB240041228E /* Assets.xcassets */,
 				6BD6A31A23A2DB240041228E /* LaunchScreen.storyboard */,
 				6BD6A31D23A2DB240041228E /* Info.plist */,
+				6BD6A32323A2DB330041228E /* TeamBadgeView.swift */,
+				6BD6A32923A2DBFF0041228E /* TeamBadgeView.xib */,
+				6BD6A32523A2DB650041228E /* UIView+.swift */,
+				6BD6A32723A2DBA70041228E /* NSAttributedString+.swift */,
 			);
 			path = FireDemo;
 			sourceTree = "<group>";
@@ -128,6 +140,7 @@
 				6BD6A31C23A2DB240041228E /* LaunchScreen.storyboard in Resources */,
 				6BD6A31923A2DB240041228E /* Assets.xcassets in Resources */,
 				6BD6A31723A2DB210041228E /* Main.storyboard in Resources */,
+				6BD6A32A23A2DBFF0041228E /* TeamBadgeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD6A31423A2DB210041228E /* ViewController.swift in Sources */,
+				6BD6A32823A2DBA70041228E /* NSAttributedString+.swift in Sources */,
 				6BD6A31023A2DB210041228E /* AppDelegate.swift in Sources */,
 				6BD6A31223A2DB210041228E /* SceneDelegate.swift in Sources */,
+				6BD6A32423A2DB330041228E /* TeamBadgeView.swift in Sources */,
+				6BD6A32623A2DB650041228E /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFPHP5CWRG;
 				INFOPLIST_FILE = FireDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFPHP5CWRG;
 				INFOPLIST_FILE = FireDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

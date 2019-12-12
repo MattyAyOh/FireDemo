@@ -6,4 +6,17 @@
 //  Copyright © 2019 Betty Labs. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension NSAttributedString {
+    func toImage(size: CGSize) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+        let context = UIGraphicsGetCurrentContext()
+        let rect = CGRect(origin: .zero, size: size)
+        context?.clear(rect)
+        draw(in: rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+}
